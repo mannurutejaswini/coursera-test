@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    color: #FFF;
+    background-color: plum;
+}
+
+/*Navbar*/
+#header-nav {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 15px;
+}
+
+.navbar-toggler {
+    margin-right: 15px;
+}
+
+#chickenButton, #beefButton, #sushiButton {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    color: #000;
+}
+
+#chickenButton {
+    border: 2px solid #000;
+}
+
+#beefButton {
+    border-top: 0px;
+    border-right: 2px;
+    border-left: 2px;
+    border-bottom: 0px;
+    border-color: #000;
+    border-style: solid;
+}
+
+#sushiButton {
+    border: 2px solid #000;
+}
+
+/*Main Content*/
+#menuTitle {
+    padding: 25px;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #000;
+}
+
+#chickenHeading, #beefHeading, #sushiHeading {
+    padding: 10px;
+    width: 200px;
+}
+
+#chicken, #beef, #sushi {
+    padding: 15px;
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+}
+
+#chickenBacktoTop, #beefBacktoTop, #sushiBacktoTop {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 6px;
+}
+
+h1 {
+    font-weight: 800;
+}
+
+p {
+    color: #A9A9;
+    margin-bottom: 15px;
+}
+
+/*Extra Large, Large Devices, and Medium Devices*/
+@media (min-width: 768px) {
+    #chicken, #beef, #sushi {
+        margin: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    #chicken, #beef, #sushi {
+        margin: 15px 0;
+    }
+}
